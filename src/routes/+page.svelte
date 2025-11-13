@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
+	centered={false}
+	title="Transform e-commerce into seamless customer experiences"
+	subtitle="Holistic UX design and operational refinement that turns fragmented operations into cohesive, conversion-driven journeys."
 	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading commerce brands"
+	logoUrls={[
+		'https://cdn.brandfetch.io/warbyparker.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/glossier.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/everlane.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/allbirds.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
