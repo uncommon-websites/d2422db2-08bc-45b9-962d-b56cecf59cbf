@@ -1,6 +1,6 @@
 <!--
 @component AboutTeaser
-A minimalist teaser for the about page.
+A minimalist founder story teaser that builds personal connection and company credibility.
 -->
 <script lang="ts">
 	// Types
@@ -23,31 +23,33 @@ A minimalist teaser for the about page.
 	const teamMember: TeamMember = {
 		name: "Alex Morgan",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces"
 	};
+
+	const founderQuote = "After watching dozens of e-commerce teams struggle with fragmented systems and disconnected customer experiences, I realized the problem wasn't technology—it was the lack of holistic thinking. We started this company to prove that seamless operations and exceptional UX aren't separate goals, they're two sides of the same transformation.";
 </script>
 
 <section bind:this={sectionRef} {...props}>
 	<div class="section-px section-py container mx-auto">
-		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
+		<div class="relative mx-auto grid max-w-3xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"${founderQuote}"`}
 			/>
 
 			<!-- Team Member & CTA Section -->
-			<div class="grid items-center gap-8 dark:border-gray-800">
-				<div class="flex items-center justify-start gap-4">
+			<div class="grid items-center gap-8">
+				<div class="flex items-center justify-center gap-4">
 					<img
 						src={teamMember.image}
 						alt={teamMember.name}
-						class="size-12 rounded-full object-cover"
+						class="size-16 rounded-full object-cover ring-1 ring-black/5"
 					/>
 					<div>
 						<div class="text-callout">{teamMember.name}</div>
 						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button href="/about" variant="secondary" size="sm" class="ml-6">Read our story</Button>
 				</div>
 			</div>
 		</div>

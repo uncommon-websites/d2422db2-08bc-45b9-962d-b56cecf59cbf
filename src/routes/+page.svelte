@@ -26,62 +26,91 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We partner with e-commerce brands to transform fragmented operations into cohesive customer experiences. Through holistic UX design and operational refinement, we turn disconnected touchpoints into seamless journeys that drive conversion and retention. Our phased approach eliminates implementation fears while delivering measurable results across the $5.5T commerce market."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Krishnan",
+			position: "Director of E-commerce",
+			company: "Luxe Home Living",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The holistic transformation cut our checkout abandonment by 42% in just three months. Their phased approach meant zero disruption to daily operations while we saw immediate improvements in conversion rates.",
+			image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "VP of Digital Experience",
+			company: "Heritage Fashion Co.",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We recovered six months of development time by partnering with their team. What would have cost us $300K in hiring and trial-and-error was delivered seamlessly with measurable ROI from week one.",
+			image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=faces"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Mei Chen",
+			position: "Head of Customer Experience",
+			company: "Botanica Beauty",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Their operational refinement eliminated 68% of our customer support tickets. The integrated UX changes transformed our fragmented touchpoints into a cohesive journey that customers actually enjoy.",
+			image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=faces"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Our approach"
+	subtitle="We transform fragmented e-commerce operations into cohesive experiences that drive measurable growth through strategic design and operational excellence."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Holistic UX transformation",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"We redesign every customer touchpoint with a unified design language that eliminates friction and creates intuitive paths to purchase."
 		},
 		{
-			title: "Data Analysis",
+			title: "Operational refinement",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Your backend systems become as seamless as your frontend. We streamline workflows, integrate platforms, and eliminate operational bottlenecks that slow growth."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Phased transformation roadmaps",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Change without disruption through carefully sequenced rollouts that minimize risk while delivering incremental value at every stage."
+		},
+		{
+			title: "Retention-focused metrics",
+			description:
+				"We measure what matters by tracking customer lifetime value, repeat purchase rates, and engagement depth rather than vanity metrics."
+		},
+		{
+			title: "Seamless platform integration",
+			description:
+				"Your commerce stack works as one cohesive system, connecting inventory, fulfillment, marketing, and analytics into unified customer experiences."
+		},
+		{
+			title: "Conversion architecture",
+			description:
+				"Strategic design decisions backed by behavioral psychology and conversion research that turn browsers into buyers and buyers into advocates."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Ready to transform your e-commerce experience?"
+	subtitle="Start your journey today"
+	description="Join leading commerce brands who've eliminated operational friction and increased conversions through our phased transformation approach. No disruption, no guesswork—just measurable results from week one."
+	imageSrc="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=1000&fit=crop&crop=faces"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Schedule a consultation",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Learn our approach",
+			variant: "secondary"
+		}
+	]}
+/>
