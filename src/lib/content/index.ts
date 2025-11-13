@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Seamless Commerce",
+	description: "Transform e-commerce into seamless customer experiences through holistic UX design and operational refinement",
 	image: "/og.png",
-	url: "https://example.com",
-	fontFamily: "Inter Variable"
+	url: "https://seamlesscommerce.com",
+	fontFamily: "Cormorant Garamond, Inter Variable"
 };
